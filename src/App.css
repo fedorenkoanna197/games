@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.cell {
+  height: 70px;
+  margin: 0.5rem;
+  color: black;
+  width: 5rem;
+  height: 5rem;
+  background-color: rgb(21, 175, 186);
+}
+
+.game{
+  margin: 1rem auto;
+  background-color: brown;
+}
+.message, .attempts{
+  text-align: center;
+}
+.buttons{
+   display: flex;
+   justify-content: space-between;
+}
+.hidden {
+  visibility: hidden;
+}
+.visibility {
+  visibility: visible;
+}
